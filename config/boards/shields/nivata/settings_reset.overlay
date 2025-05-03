@@ -1,0 +1,6 @@
+/ {
+  settings_reset {
+    compatible = "zmk,settings-reset";
+    label = "Settings Reset";
+  };
+};
