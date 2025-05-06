@@ -16,7 +16,7 @@
   &kp EXCL   &kp J     &kp D     &kp U      &kp A      &kp X     &trans     &trans      &trans    &trans   &kp P      &kp H   &kp L      &kp M     &kp W     &kp S         &trans     &trans    &trans       &trans    
   &kp QMARK  &kp C     &kp T     &kp I      &kp E      &kp O     &trans     &trans      &trans    &trans   &kp B      &kp N   &kp R      &kp S     &kp G     &kp Q         &trans     &trans    &trans       &trans
   &kp DQT    &kp F     &kp V     &kp U      &kp A      &kp O     &trans     &trans      &trans    &trans   &kp Y      &kp Z   &kp COMMA  &kp DOT   &kp K     &kp MINUS     &trans     &trans    &trans       &trans
-  &trans     &trans    &trans    &trans     &trans     &trans    &kp HYPER  &kp RET     &kp SPACE &trans   &trans     &trans  &trans     &trans    &trans    &trans        &kp SPACE  &mo 1     &kp LEFT     &kp DOWN   
+  &trans     &trans    &trans    &trans     &trans     &trans    &kp SPACE  &kp RET     &kp SPACE &trans   &trans     &trans  &trans     &trans    &trans    &trans        &kp SPACE  &mo 1     &kp LEFT     &kp DOWN   
   >;
                 };
                 lower_layer {
