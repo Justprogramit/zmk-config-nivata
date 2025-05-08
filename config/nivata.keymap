@@ -16,10 +16,10 @@
                 default_layer {
 
                         bindings = <
-  &kp EXCL   &kp J     &kp D     &kp U     &kp A      &kp X      &trans     &trans      &trans    &trans   &kp MINUS  &kp W   &kp M      &kp L     &kp H     &kp P        &trans     &trans       &trans        &trans    
-  &kp A      &kp C     &kp T     &kp I     &kp E      &kp O      &trans     &trans      &trans    &trans   &kp Q      &kp G   &kp S      &kp R     &kp N     &kp B        &trans     &trans       &trans        &trans
-  &kp A      &kp F     &kp V     &kp LBKT  &kp SQT    &kp SEMI   &trans     &trans      &trans    &trans   &kp SLASH  &kp K   &kp DOT    &kp COMMA &kp Y     &kp Z        &trans     &trans       &trans        &trans
-  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &ENTER   &trans     &trans  &trans     &trans    &trans    &trans       &kp ESC    &trans       &kp LSHFT     &kp BSPC   
+  &kp EXCL   &kp J     &kp D     &kp U     &kp A      &kp X      &trans     &trans      &trans    &trans    &kp MINUS  &kp W   &kp M      &kp L     &kp H     &kp P        &trans     &trans       &trans        &trans    
+  &kp A      &kp C     &kp T     &kp I     &kp E      &kp O      &trans     &trans      &trans    &trans    &kp Q      &kp G   &kp S      &kp R     &kp N     &kp B        &trans     &trans       &trans        &trans
+  &kp A      &kp F     &kp V     &kp LBKT  &kp SQT    &kp SEMI   &trans     &trans      &trans    &trans    &kp SLASH  &kp K   &kp DOT    &kp COMMA &kp Y     &kp Z        &trans     &trans       &trans        &trans
+  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &kpENTER  &trans     &trans  &trans     &trans    &trans    &trans       &kp ESC    &trans       &kp LSHFT     &kp BSPC   
   >;
                 };
                 lower_layer {
