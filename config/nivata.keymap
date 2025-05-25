@@ -5,21 +5,21 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-
+                
 // -------------------------------------------------------------------------------------------------------------------
-// |  +  |  J  |  D  |  U  |  A  |  X  |                                                 |  P  |  H  |  L  |  M  |  W  |  ß  |
-// |  ^  |  C  |  T  |  I  |  E  |  O  |                                                 |  B  |  N  |  R  |  S  |  G  |  Q  |
-// |  #  |  F  |  V  |  Ü  |  Ä  |  Ö  |                                                 |  Y  |  Z  |  ,  |  .  |  K  |  -  |
-//                                     |     |     |SPACE|ENTER|  |BCKSP|SHIFT|     |ESC |
+// | TAB |  Q  |  W  |  E  |  R  |  T  |                                                 |  Z  |  U  |  I  |  O  |  P  |  Ü  |
+// |  ß  |  A  |  S  |  D  |  F  |  G  |                                                 |  H  |  J  |  K  |  L  |  Ö  |  Ä  |
+// |SHIFT|  Y  |  X  |  C  |  V  |  B  |                                                 |  N  |  M  |  ,  |  .  |  -  |SHIFT|
+//                                     |     |     |SPACE|     |--|BCKSP|ENTER|     |ESC |
 // -------------------------------------------------------------------------------------------------------------------
 
                 default_layer {
 
                         bindings = <
-  &kp RBKT        &kp J     &kp D     &kp U     &kp A      &kp X      &trans     &trans      &trans    &trans     &kp MINUS  &kp W   &kp M      &kp L     &kp H     &kp P        &trans     &trans       &trans        &trans    
-  &kp NON_US_BSLH &kp C     &kp T     &kp I     &kp E      &kp O      &trans     &trans      &trans    &trans     &kp Q      &kp G   &kp S      &kp R     &kp N     &kp B        &trans     &trans       &trans        &trans
-  &kp BSLH        &kp F     &kp V     &kp LBKT  &kp SQT    &kp SEMI   &trans     &trans      &trans    &trans     &kp SLASH  &kp K   &kp DOT    &kp COMMA &kp Y     &kp Z        &trans     &trans       &trans        &trans
-  &trans          &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &kp ENTER  &trans     &trans  &trans     &trans    &trans    &trans       &kp ESC    &trans       &kp LSHFT     &kp BSPC   
+  &kp TAB    &kp Q     &kp W     &kp E     &kp R      &kp T      &trans     &trans      &trans    &trans     &kp LBKT    &kp P     &kp O    &kp I      &kp U     &kp Y        &trans     &trans       &trans        &trans    
+  &kp MINUS  &kp A     &kp S     &kp D     &kp F      &kp G      &trans     &trans      &trans    &trans     &kp SQT     &kp SEMI  &kp L    &kp K      &kp H     &kp J        &trans     &trans       &trans        &trans
+  &kp LSHFT  &kp Z     &kp X     &kp C     &kp V      &kp B      &trans     &trans      &trans    &trans     &kp RSHIFT  &kp SLASH &kp DOT  &kp COMMA  &kp M     &kp N        &trans     &trans       &trans        &trans
+  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &trans     &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &trans       &kp ENTER     &kp BSPC   
   >;
                 };
                 lower_layer {
