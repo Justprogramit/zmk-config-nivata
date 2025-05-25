@@ -6,12 +6,12 @@
         keymap {
                 compatible = "zmk,keymap";
 
-// -------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------------
 // | TAB |  Q  |  W  |  E  |  R  |  T  |                                                 |  Z  |  U  |  I  |  O  |  P  |  Ü  |
 // |  ß  |  A  |  S  |  D  |  F  |  G  |                                                 |  H  |  J  |  K  |  L  |  Ö  |  Ä  |
 // |SHIFT|  Y  |  X  |  C  |  V  |  B  |                                                 |  N  |  M  |  ,  |  .  |  -  |SHIFT|
 //                                     |     |     |SPACE|     |--|BCKSP|ENTER|     |ESC |
-// -------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------------
 
                 default_layer {
 
@@ -19,10 +19,19 @@
   &kp TAB    &kp Q     &kp W     &kp E     &kp R      &kp T      &trans     &trans      &trans    &trans     &kp LBKT    &kp P     &kp O    &kp I      &kp U     &kp Y        &trans     &trans       &trans        &trans    
   &kp MINUS  &kp A     &kp S     &kp D     &kp F      &kp G      &trans     &trans      &trans    &trans     &kp SQT     &kp SEMI  &kp L    &kp K      &kp J     &kp H        &trans     &trans       &trans        &trans
   &kp LSHFT  &kp Z     &kp X     &kp C     &kp V      &kp B      &trans     &trans      &trans    &trans     &kp RSHIFT  &kp SLASH &kp DOT  &kp COMMA  &kp M     &kp N        &trans     &trans       &trans        &trans
-  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &trans     &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &trans       &kp ENTER     &kp BSPC   
+  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &to 1      &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &to 0        &kp BSPC      &kp ENTER   
   >;
                 };
                 lower_layer {
+
+                        bindings = <
+  &kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T   &trans     &trans      &trans    &trans   &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH   &trans     &trans    &trans       &trans
+  &kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G   &trans     &trans      &trans    &trans   &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET    &trans     &trans    &trans       &trans
+  &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B   &trans     &trans      &trans    &trans   &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS   &trans     &trans    &trans       &trans
+  &trans     &trans    &trans    &trans     &trans     &trans  &kp LGUI   &kp SPACE   &kp LALT  &kp LGUI &trans     &trans  &trans     &trans    &trans    &trans     &kp SPACE  &mo 1     &kp LEFT     &kp DOWN   
+                        >;
+                };
+                raise_layer {
 
                         bindings = <
   &kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T   &trans     &trans      &trans    &trans   &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH   &trans     &trans    &trans       &trans
