@@ -5,7 +5,7 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-                
+
 // -------------------------------------------------------------------------------------------------------------------
 // | TAB |  Q  |  W  |  E  |  R  |  T  |                                                 |  Z  |  U  |  I  |  O  |  P  |  Ü  |
 // |  ß  |  A  |  S  |  D  |  F  |  G  |                                                 |  H  |  J  |  K  |  L  |  Ö  |  Ä  |
@@ -17,7 +17,7 @@
 
                         bindings = <
   &kp TAB    &kp Q     &kp W     &kp E     &kp R      &kp T      &trans     &trans      &trans    &trans     &kp LBKT    &kp P     &kp O    &kp I      &kp U     &kp Y        &trans     &trans       &trans        &trans    
-  &kp MINUS  &kp A     &kp S     &kp D     &kp F      &kp G      &trans     &trans      &trans    &trans     &kp SQT     &kp SEMI  &kp L    &kp K      &kp H     &kp J        &trans     &trans       &trans        &trans
+  &kp MINUS  &kp A     &kp S     &kp D     &kp F      &kp G      &trans     &trans      &trans    &trans     &kp SQT     &kp SEMI  &kp L    &kp K      &kp J     &kp H        &trans     &trans       &trans        &trans
   &kp LSHFT  &kp Z     &kp X     &kp C     &kp V      &kp B      &trans     &trans      &trans    &trans     &kp RSHIFT  &kp SLASH &kp DOT  &kp COMMA  &kp M     &kp N        &trans     &trans       &trans        &trans
   &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &trans     &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &trans       &kp ENTER     &kp BSPC   
   >;
