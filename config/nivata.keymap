@@ -16,28 +16,28 @@
                 default_layer {
 
                         bindings = <
-  &kp TAB    &kp Q     &kp W     &kp E     &kp R      &kp T      &trans     &trans      &trans    &trans     &kp LBKT    &kp P     &kp O    &kp I      &kp U     &kp Y        &trans     &trans       &trans        &trans    
+  &kp PIPE   &kp Q     &kp W     &kp E     &kp R      &kp T      &trans     &trans      &trans    &trans     &kp LBKT    &kp P     &kp O    &kp I      &kp U     &kp Y        &trans     &trans       &trans        &trans    
   &kp MINUS  &kp A     &kp S     &kp D     &kp F      &kp G      &trans     &trans      &trans    &trans     &kp SQT     &kp SEMI  &kp L    &kp K      &kp J     &kp H        &trans     &trans       &trans        &trans
   &kp LSHFT  &kp Z     &kp X     &kp C     &kp V      &kp B      &trans     &trans      &trans    &trans     &kp RSHIFT  &kp SLASH &kp DOT  &kp COMMA  &kp M     &kp N        &trans     &trans       &trans        &trans
-  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &to 1      &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &to 0        &kp BSPC      &kp ENTER   
+  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &to 1       &kp SPACE &trans     &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &trans       &kp BSPC      &kp ENTER   
   >;
                 };
                 lower_layer {
 
                         bindings = <
-  &kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T   &trans     &trans      &trans    &trans   &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH   &trans     &trans    &trans       &trans
-  &kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G   &trans     &trans      &trans    &trans   &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET    &trans     &trans    &trans       &trans
-  &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B   &trans     &trans      &trans    &trans   &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS   &trans     &trans    &trans       &trans
-  &trans     &trans    &trans    &trans     &trans     &trans  &kp LGUI   &kp SPACE   &kp LALT  &kp LGUI &trans     &trans  &trans     &trans    &trans    &trans     &kp SPACE  &mo 1     &kp LEFT     &kp DOWN   
+  &kp TAB    &kp Q     &kp F7    &kp F8    &kp F9     &trans     &trans     &trans      &trans    &trans     &kp F2      &kp F12   &kp N9   &kp N8     &kp N7    &trans       &trans     &trans       &trans        &trans    
+  &trans     &kp LEFT  &kp DOWM  &kp UP    &kp RIGHT  &trans     &trans     &trans      &trans    &trans     &kp F1      &kp F11   &kp N6   &kp N5     &kp N4    &kp N0       &trans     &trans       &trans        &trans
+  &kp LSHFT  &trans    &trans    &trans    &trans     &trans     &trans     &trans      &trans    &trans     &trans      &kp F10   &kp N3   &kp N2     &kp N1    &trans       &trans     &trans       &trans        &trans
+  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &to 0      &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &trans       &kp BSPC      &kp ENTER   
                         >;
                 };
                 raise_layer {
 
                         bindings = <
-  &kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T   &trans     &trans      &trans    &trans   &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH   &trans     &trans    &trans       &trans
-  &kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G   &trans     &trans      &trans    &trans   &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET    &trans     &trans    &trans       &trans
-  &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B   &trans     &trans      &trans    &trans   &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS   &trans     &trans    &trans       &trans
-  &trans     &trans    &trans    &trans     &trans     &trans  &kp LGUI   &kp SPACE   &kp LALT  &kp LGUI &trans     &trans  &trans     &trans    &trans    &trans     &kp SPACE  &mo 1     &kp LEFT     &kp DOWN   
+  &kp TAB    &kp Q     &kp W     &kp E     &kp R      &kp T      &trans     &trans      &trans    &trans     &kp LBKT    &kp P     &kp O    &kp I      &kp U     &kp Y        &trans     &trans       &trans        &trans    
+  &kp MINUS  &kp A     &kp S     &kp D     &kp F      &kp G      &trans     &trans      &trans    &trans     &kp SQT     &kp SEMI  &kp L    &kp K      &kp J     &kp H        &trans     &trans       &trans        &trans
+  &kp LSHFT  &kp Z     &kp X     &kp C     &kp V      &kp B      &trans     &trans      &trans    &trans     &kp RSHIFT  &kp SLASH &kp DOT  &kp COMMA  &kp M     &kp N        &trans     &trans       &trans        &trans
+  &trans     &trans    &trans    &trans    &trans     &trans     &trans     &trans      &kp SPACE &to 1      &trans      &trans    &trans   &trans     &trans    &trans       &kp ESC    &to 0        &kp BSPC      &kp ENTER   
                         >;
                 };
         };
